@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="myapp">
+		<ul id="myUl"></ul>
+	</div>
+	<input id="searchTxt"><button id="searchBtn">搜索</button>
+	<div id="music"></div>
+	<div id="lyric"></div>
+</body>
+</html>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript">
+$('#searchBtn').on('click',function(e){
+		var cont = $('#searchTxt').val();
+		myAjax(cont);
+	})
+// https://api.imjad.cn/cloudmusic/?type=mv&id=393006&br=128000
+
+</script>
