@@ -6,7 +6,7 @@ function myAjax(cont){
 			if(data.code == 200){
 				var musicType = {
 						song 	: 'song',
-						mv 		: 'mv',
+						mv 	: 'mv',
 						lyric 	: 'lyric'
 					}
 					songMes = {
